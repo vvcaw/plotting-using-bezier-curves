@@ -1,4 +1,8 @@
-# anima
+# plotting-using-bezier-curves
+
+## VSCode
+
+Be sure to run `nix develop` and then `code .` in this environment such that the Haskell extension can find the HLS instance.
 
 I want to visualize and animate my thoughts and ideas. This repository uses `reanimate` (see [overview](https://reanimate.readthedocs.io/en/latest/glue_tut/)).
 
