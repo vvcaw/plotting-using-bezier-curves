@@ -1,6 +1,4 @@
-#!/usr/bin/env nix-shell 
-#! nix-shell ../shell.nix -i bash
+#!/usr/bin/env bash
 set -xe
-find src -name \*.hs | xargs ormolu -m inplace
-nixpkgs-fmt *.nix
-cabal-fmt -i *.cabal
+
+nix develop -c find src -name \*.hs | xargs ormolu -m inplace 
